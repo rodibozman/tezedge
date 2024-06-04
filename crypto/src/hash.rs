@@ -1260,6 +1260,12 @@ mod tests {
             ]
         );
 
+        test!(
+            sk_secp256k1,
+            SecretKeySecp256k1,
+            ["spsk2AaMNqEXpktvN6NfQMr45pjNai8HKNRguaVuRkxjieRk5jWpVq",]
+        );
+
         test!(pk_hash, CryptoboxPublicKeyHash, []);
 
         test!(pk_ed25519, PublicKeyEd25519, []);
